@@ -47,4 +47,4 @@ demo = gr.Interface(
     description="Generate MCQs, short-answer, or interview-style questions from given content using Gemini."
 )
 
-demo.launch(debug=True)
+demo.launch(server_name="0.0.0.0", root_path="/gradio")
